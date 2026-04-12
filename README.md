@@ -56,7 +56,7 @@ Open your browser and go to `http://localhost:5173`
 ![Wallet Connected](./screenshots/wallet-connected.png)
 
 ### Successful Transaction
-![Transaction Success](./screenshots/transaction-success.png)
+[![Transaction Success](./screenshots/transaction-success.png)](https://github.com/jayantvaibhavspj/stellar-whitebelt/blob/170de6c31bbafbfcf889989a9e8548901b1d25fe/screenshots/transaction-success.png.png)
 
 ## Built For
 
