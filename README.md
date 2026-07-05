@@ -1,14 +1,25 @@
-# Stellar dApp - White Belt 🌟
+# Stellar White Belt Submission 🌟
 
-A simple Stellar dApp built on Testnet that allows users to connect their Freighter wallet, view their XLM balance, and send XLM transactions.
+This project is a complete Stellar Testnet dApp built for the White Belt challenge. It lets users connect a Freighter wallet, view their XLM balance, and send XLM transactions with clear success or failure feedback.
+
+## Overview
+
+Level 1 – White Belt focuses on the fundamentals of Stellar development:
+
+- Wallet setup and connection
+- Displaying wallet balances
+- Sending a real XLM transaction on Stellar Testnet
+- Showing transaction feedback to the user
+
+This repository is prepared as a submission-ready project with a polished UI, working wallet integration, and clear local setup instructions.
 
 ## Features
 
-- Connect / Disconnect Freighter Wallet
-- Display XLM balance (auto-refreshes every 10s)
-- Send XLM to any Stellar testnet address
-- Transaction feedback (success/failure + transaction hash)
-- Link to view transaction on Stellar Expert
+- Connect and disconnect a Freighter wallet
+- Fetch and display the connected wallet’s native XLM balance
+- Send XLM to any Stellar Testnet address
+- Show transaction success/failure state and transaction hash
+- Provide a direct link to inspect the transaction on Stellar Expert
 
 ## Tech Stack
 
@@ -17,47 +28,59 @@ A simple Stellar dApp built on Testnet that allows users to connect their Freigh
 - @stellar/freighter-api
 - Stellar Testnet (Horizon)
 
+## Requirements Covered
+
+- Wallet Setup: Uses the Freighter wallet on Stellar Testnet
+- Wallet Connection: Supports connect and disconnect actions
+- Balance Handling: Displays the connected wallet’s XLM balance clearly
+- Transaction Flow: Sends a real testnet transaction and shows feedback
+- Development Standards: Includes UI, wallet integration, balance fetch, transaction logic, and error handling
+
 ## Setup Instructions
 
 ### Prerequisites
 
-- Node.js (v18+)
-- [Freighter Wallet](https://freighter.app) browser extension
+- Node.js 18+
+- Freighter Wallet browser extension
 - Git
 
 ### Installation
 
 ```bash
-# Clone the repository
-git clone https://github.com/YOUR_USERNAME/stellar-whitebelt.git
-
-# Navigate to project folder
-cd stellar-whitebelt
-
-# Install dependencies
+git clone https://github.com/apnavlogzone-prog/White-Belt-Submission.git
+cd White-Belt-Submission
 npm install
-
-# Start the development server
 npm run dev
 ```
 
-Open your browser and go to `http://localhost:5173`
+Open your browser at http://localhost:5173
 
 ### Freighter Wallet Setup
 
-1. Install [Freighter](https://freighter.app) browser extension
+1. Install Freighter from https://freighter.app
 2. Create or import a wallet
-3. Switch network to **Testnet**
-4. Get free testnet XLM from [Friendbot](https://friendbot.stellar.org)
+3. Switch the wallet network to Testnet
+4. Fund your wallet using the Stellar Testnet Friendbot or faucet
+
+## How to Use
+
+1. Connect your Freighter wallet
+2. Confirm the wallet is on Testnet
+3. View the XLM balance in the UI
+4. Enter a recipient address and amount
+5. Submit the transaction and review the result
 
 ## Screenshots
 
 ### Wallet Connected + Balance Displayed
-[![Wallet Connected](./screenshots/wallet-connected.png)](https://github.com/jayantvaibhavspj/stellar-whitebelt/blob/a32396a2b631796839461b5c87bd068ff88289a4/screenshots/wallet-connected.png.png)
+![Wallet connected state](./screenshots/wallet-connected.png)
 
 ### Successful Transaction
-[![Transaction Success](./screenshots/transaction-success.png)](https://github.com/jayantvaibhavspj/stellar-whitebelt/blob/170de6c31bbafbfcf889989a9e8548901b1d25fe/screenshots/transaction-success.png.png)
+![Successful transaction](./screenshots/transaction-success.png)
 
-## Built For
+## Submission Notes
 
-[Stellar White Belt Challenge](https://risein.com)
+Repository for submission:
+https://github.com/apnavlogzone-prog/White-Belt-Submission
+
+Built for the Stellar White Belt challenge.
